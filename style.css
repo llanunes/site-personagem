@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alfa+Slab+One&family=Prompt:wght@300&family=Righteous&display=swap');
+
+h1 {
+    font-family: "Alfa Slab One";
+    text-align: center;
+    color: rgb(63, 125, 168);
+    text-shadow: 1px 1px 2px black;
+    font-size: 40px;
+}
+
+body{
+    background-image: url(./neve.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    font-size: 15px;
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Prompt";
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.img-logo{
+    width: 200px;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.jack {
+    border: 5px solid rgb(87, 140, 165);
+    border-radius: 15px;
+    background-color: rgba(28, 61, 88, 0.5);
+    background-size: cover;
+    transition: 1000ms;
+    width: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    transition: 1100ms;
+}
+
+.jack-details {
+    text-align: center;
+    width: 30%;
+    font-family: "Prompt";
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.espaco{
+    padding-top: 2px;
+    font-family: "Righteous";
+    color: rgb(75, 78, 78);
+}
+
+img:hover{
+    background-color: rgba(107, 110, 112, 0.678);
+    transition: 1000ms;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.navbar{
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+    align-items: center;
+    font-family: "Alfa Slab One";
+}
+
+.items {
+    padding: 10px 20px;
+    background-color: rgba(28, 61, 88, 0.5);
+    border-radius: 10px;
+    border: 2px solid rgba(28, 61, 88, 0.5);
+    transition: 1000ms;
+    text-decoration: none;
+    justify-content: end;
+
+}
+
+.items a {
+    text-decoration: none;
+    color: rgb(186, 209, 214);
+}
+
+.items:hover {
+    background-color: rgba(142, 149, 153, 0.678);
+}
+
+.href {
+    color: rgb(38, 72, 97);
+}
